@@ -1,12 +1,12 @@
 version: '3.8'
 
 services:
-  orderapi:
+  star_wars_wiki:
     build:
       context: .
       dockerfile: Dockerfile
-    image: orderapi
-    container_name: orderapi
+    image: star_wars_wiki
+    container_name: star_wars_wiki
     restart: unless-stopped
     ports:
       - '8000:8000'

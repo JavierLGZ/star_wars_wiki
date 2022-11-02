@@ -3,18 +3,18 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 class Planet(models.Model):
-    planet_name = models.CharField()
+    planet_name = models.CharField(max_length=200)
     description = models.TextField()
 
 
     class Meta:
-        ordering = ("name")
+        ordering = ("planet_name",)
     
 class Movie(models.Model):
-    movie_name = models.CharField()
+    movie_name = models.CharField(max_length=200)
     opening_text = models.TextField()
-    director = models.CharField()
-    producer = models.CharField()
+    director = models.CharField(max_length=200)
+    producer = models.CharField(max_length=200)
     budget = models.PositiveIntegerField()
     revenue = models.PositiveIntegerField()
     year = models.PositiveIntegerField(
@@ -22,14 +22,14 @@ class Movie(models.Model):
     )
     planets = models.ManyToManyField(Planet, related_name="planets", blank=True)
     class Meta:
-        ordering = ("year")
+        ordering = ("year",)
 
 class Character(models.Model):
-    name = models.CharField()
+    name = models.CharField(max_length=200)
     movies = models.ManyToManyField(Movie, related_name="movies", blank=True)
     description = models.TextField()
-    race = models.CharField()
-    profession = models.CharField()
+    race = models.CharField(max_length=200)
+    profession = models.CharField(max_length=200)
 
     class Meta:
-        ordering = ("name")
+        ordering = ("name",)

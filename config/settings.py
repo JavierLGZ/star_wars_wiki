@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_tramework',
+    'rest_framework',
     'drf_yasg',
     'star_war_wiki',
 ]
