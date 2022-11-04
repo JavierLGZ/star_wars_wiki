@@ -1,0 +1,135 @@
+[
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 1,
+        "fields": {
+            "movie_name": "Episodio I: La Amenaza Fantasma",
+            "opening_text": "La República Galáctica está sumida en disturbios. Hay protestas contra la tributación de las rutas comerciales a sistemas estelares.\r\n Esperando resolver el problema con un bloqueo de mortíferos cruceros, la avariciosa Federación de  Comercio ha detenido todos los envios al pequeño planeta de Naboo.\r\n Mientras el Congreso de la República debate sin fin esta alarmante cadena de acontecimientos, el Canciller Supremo ha despachado en secreto a dos Caballeros Jedi, los guardianes de la paz y la justicia en la galaxia, a resolver el conflicto…",
+            "director": "George Lucas",
+            "producer": "Rick McCallum",
+            "budget": 11500000,
+            "year": 1999,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 2,
+        "fields": {
+            "movie_name": "Episodio II: El Ataque de los Clones",
+            "opening_text": "Hay inquietud en el Senado Galáctico. Varios miles de sistemas solares han declarado sus intenciones de abandonar la República.\r\n El movimiento separatista, bajo el liderazgo del misterioso Conde Dooku, ha hecho difícil que el número limitado de Caballeros Jedi mantengan la paz y el orden en la galaxia.\r\n La Senadora Amidala, la ex reina de Naboo, va a regresar al Senado Galáctico para votar sobre la cuestión crítica de formar un EJÉRCITO DE LA REPÚBLICA para ayudar a los abrumados Jedi…",
+            "director": "George Lucas",
+            "producer": "Rick McCallum",
+            "budget": 120000000,
+            "year": 2002,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 3,
+        "fields": {
+            "movie_name": "Episodio III: La Venganza de los Sith",
+            "opening_text": "¡Guerra! La República se desmorona bajo los ataques del despiadado Conde Dooku, señor de los Sith. Hay héroes en ambos bandos. El mal está por doquier.\r\n En una maniobra audaz, eldiabólico líder droide, general Grievous, ha entrado a la capital de la República y secuestrado al canciller Palpatine, líder del Senado Galáctico.\r\n Mientras el Ejército Droide Separatista trata de huir de la asediada capital con su valioso rehén, dos caballeros Jedi dirigen una misión desesperada para rescatar al canciller cautivo....",
+            "director": "George Lucas",
+            "producer": "Rick McCallum",
+            "budget": 113000000,
+            "year": 2005,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 4,
+        "fields": {
+            "movie_name": "Episodio IV: Una Nueva Esperanza",
+            "opening_text": "Son tiempos de guerra civil. Naves rebeldes han atacado desde una base secreta y han obtenido su primera victoria contra el malvado Imperio Galáctico.\r\n Durante la batalla, espías rebeldes lograron robar los planos secretos del arma más extrema del Imperio, la ESTRELLA DE LA MUERTE, una estación espacial blindada con suficiente potencia para destruir un planeta entero.\r\n Perseguida por los siniestros agentes del Imperio, la Princesa Leia se dirige velozmente a casa en su nave espacial, mientras resguarda los planos que pueden salvar a su pueblo y restaurar la libertad en la galaxia…",
+            "director": "George Lucas",
+            "producer": "Gary Kurtz",
+            "budget": 11000000,
+            "year": 1977,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 5,
+        "fields": {
+            "movie_name": "Episodio V: El Imperio Contraataca",
+            "opening_text": "Es una época oscura para la Rebelión. Aunque la Estrella de la Muerte ha sido destruida, las tropas imperiales han obligado a las fuerzas rebeldes a dejar sus sus bases secretas y las han perseguido a través de la galaxia.\r\n En una fuga de la temida Flota Imperial, un grupo de guerreros rebeldes liderado por Luke Skywalker ha establecido una nueva base secreta en la remota tierra congelada de Hoth.\r\n Darth Vader, Señor del mal, Obsesionado con encontrar al joven Skywalker, ha despachado al lejano espacio miles de sondas a control remoto....",
+            "director": "Irvin Kershner",
+            "producer": "Gary Kurtz",
+            "budget": 18000000,
+            "year": 1980,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 6,
+        "fields": {
+            "movie_name": "Episodio VI: El Retorno del Jedi",
+            "opening_text": "Luke Skywalker ha regresado a Tatooine, su planeta de origen, en un intento de rescatar a su amigo Han Solo de las garras del vil Jabba.\r\n Luke no sabe que el IMPERIO GALÁCTICO ha iniciado secretamente la construcción de una nueva estación espacial blindada, incluso ás poderosa que la primera y temida Estrella de la Muerte.\r\n Una vez terminada, esta arma extrema augurará una muerte segura para el pequeño grupo de rebeldes que lucha por restaurar la libertad en la galaxia....",
+            "director": "Richard Marquand",
+            "producer": "Howard Kazanjian",
+            "budget": 32500000,
+            "year": 1983,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 7,
+        "fields": {
+            "movie_name": "Episodio VII: El Despertar de la Fuerza",
+            "opening_text": "Luke Skywalker ha desaparecido.\r\n En su ausencia, la siniestra PRIMERA ORDEN ha surgido de las cenizas del Imperio y no descansará hasta que Skywalker, el último Jedi, haya sido destruido. Con el apoyo de la REPÚBLICA, la General Leia Organa dirige una valiente RESISTENCIA.\r\n Desesperadamente busca a su hermano Luke con el fin de obtener su ayuda para restaurar la paz y la justicia en la galaxia.\r\n Leia ha enviado a su piloto más audaz en una misión secreta a Jakku, donde un viejo aliado ha descubierto una pista del paradero de Luke....",
+            "director": "J.J. Abrams",
+            "producer": "Kathleen Kennedy",
+            "budget": 200000000,
+            "year": 2015,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 8,
+        "fields": {
+            "movie_name": "Episodio VIII: Los Últimos Jedi",
+            "opening_text": "La PRIMERA ORDEN impera. Luego de diezmar a la pacífica República, el Líder Supremo Snoke ahora envía a sus despiadadas legiones a asumir el control militar de la galaxia.\r\n Solo la General Leia Organa y su grupo de combatientes de la RESISTENCIA se oponen a la creciente tiranía, convencidos de que el Maestro Jedi Luke Skywalker regresará y restaurará la chispa de esperanza en la lucha.\r\n Pero la Resistencia ha sido expuesta. Mientras la Primera Orden se dirige hacia la base rebelde, los valientes héroes organizan un desesperado escape....",
+            "director": "Rian Johnson",
+            "producer": "Kathleen Kennedy",
+            "budget": 317000000,
+            "year": 2017,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.movie",
+        "pk": 9,
+        "fields": {
+            "movie_name": "Episodio IX: El Ascenso de Skywalker",
+            "opening_text": "¡Los muertos hablan! La galaxia ha escuchado una transmisión misteriosa, una amenaza de VENGANZA en la siniestra voz del fallecido EMPERADOR PALPATINE.\r\n LA GENERAL LEIA ORGANA envía agentes secretos a obtener información, mientras que REY, la última esperanza de los Jedi, entrena para luchar en contra de la diabólica PRIMERA ORDEN.\r\n Mientras tanto, el Líder Supremo KYLO REN busca furiosamente al Emperador fantasma, dispuesto a destruir cualquier amenaza a su poder....",
+            "director": "J.J. Abrams",
+            "producer": "Kathleen Kennedy",
+            "budget": 275000000,
+            "year": 2019,
+            "planets":[]
+        }
+    },
+    {
+        "model": "star_war_wiki.character",
+        "pk": 1,
+        "fields": {
+            "name": "han solo",
+            "description": "era un hombre humano contrabandista que se convirtió en un líder en la Alianza para Restaurar la República y una figura instrumental en la derrota del Imperio Galáctico durante la Guerra Civil Galáctica.",
+            "movies": [
+                4,
+                5,
+                6,
+                7
+            ]
+
+        }
+    }
+
+]

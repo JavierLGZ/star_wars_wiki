@@ -18,9 +18,6 @@ RUN pip install --upgrade pip \
 
 COPY . /app
 
-# Ejecuta las migraciones
-RUN python manage.py makemigrations \
-    && python manage.py migrate
+RUN chmod +x entrypoint.sh
 
-# Inicia el servidor de Django
-CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["entrypoint.sh"]
