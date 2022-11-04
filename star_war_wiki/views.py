@@ -1,9 +1,7 @@
-from rest_framework import generics, status
-from rest_framework.response import Response
+from rest_framework import generics
 from django_filters import rest_framework as filters
 from .models import Planet, Movie, Character
 from .serializers import PlanetSerializer, MovieSerializer, CharacterSerializer
-
 
 class CharacterFilter(filters.FilterSet):
     class Meta:
