@@ -1,6 +1,6 @@
 # Star wars wiki API
 
-es una api diseñada para recopilar informacion hacerca de personajes, peliculas y planetas del universo de star wars
+es una api diseñada para recopilar informacion acerca de personajes, peliculas y planetas del universo de star wars
 
 ## Instrucciones
 
